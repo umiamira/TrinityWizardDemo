@@ -9,6 +9,10 @@ import UIKit
 
 class MainTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lbl_rating: UILabel!
+    @IBOutlet weak var lbl_title: UILabel!
+    @IBOutlet weak var image_view: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
